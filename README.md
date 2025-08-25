@@ -99,3 +99,32 @@ At Risk (1) / Not at Risk (0)
 ├── Streamlit App - DRP.png # Screenshot for this README
 └── .gitignore
 
+
+## 🛠️ Tools used
+- **Python**
+- **pandas**, **NumPy**
+- **scikit-learn** — modeling & probability calibration
+- **Streamlit** — UI
+- **joblib** — model artifact serialization
+
+
+
+## ⚖️ Ethics & limitations
+- Self-reported survey data can be noisy and biased.
+- The model reflects correlations, not causation; performance varies across populations and data quality.
+- **Not for clinical use** — always confirm with medical testing and professional evaluation.
+
+
+
+## 🗺️ Roadmap
+- [ ] In-app explanation (feature contributions)
+- [ ] Unit tests for the scoring path
+- [ ] Lightweight monitoring for drift (if used in batch scoring)
+- [ ] Internationalization (labels & hints)
+
+
+
+## 🙌 Acknowledgments
+- CDC **BRFSS** Diabetes Health Indicators (for inspiring the input schema)
+- Streamlit & scikit-learn communities
+
