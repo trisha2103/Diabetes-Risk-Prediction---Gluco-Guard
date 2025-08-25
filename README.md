@@ -1,6 +1,6 @@
 # GlucoGuard — Diabetes Risk (BRFSS)
 
-![App screenshot](Streamlit App - DRP.png)
+![App screenshot](./Streamlit%20App%20-%20DRP.png)
 
 <div align="center">
 
