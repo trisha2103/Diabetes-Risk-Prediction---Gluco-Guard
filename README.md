@@ -79,6 +79,28 @@ At Risk (1) / Not at Risk (0)
 
 ---
 
+## 📈 Model evaluation
+
+**Operating point shown below:** threshold ≈ 0.22 (chosen on a validation split).
+
+<p align="center">
+  <img src="./Confusion%20matrix.png" alt="Confusion matrix" width="48%" />
+</p>
+
+- Counts (from the plot): **TN=26,511**, **FP=6,239**, **FN=1,899**, **TP=3,403**  (N=38,052)  
+- Precision ≈ **0.353**, Recall ≈ **0.642**, F1 ≈ **0.455**, Specificity ≈ **0.809**  
+- ROC-AUC ≈ **0.821** (example run; will vary with training)
+
+<p align="center">
+  <img src="./PR%20curve.png" alt="Precision–Recall curve (test)" width="48%" />
+</p>
+
+<p align="center">
+  <img src="./ROC.png" alt="ROC curve (test)" width="48%" />
+</p>
+
+---
+
 ## ✨ Features
 
 - Clean, responsive Streamlit UI with a hero header and results card  
@@ -99,6 +121,7 @@ At Risk (1) / Not at Risk (0)
 ├── Streamlit App - DRP.png # Screenshot for this README
 └── .gitignore
 
+---
 
 ## 🛠️ Tools used
 - **Python**
@@ -107,14 +130,14 @@ At Risk (1) / Not at Risk (0)
 - **Streamlit** — UI
 - **joblib** — model artifact serialization
 
-
+---
 
 ## ⚖️ Ethics & limitations
 - Self-reported survey data can be noisy and biased.
 - The model reflects correlations, not causation; performance varies across populations and data quality.
 - **Not for clinical use** — always confirm with medical testing and professional evaluation.
 
-
+---
 
 ## 🗺️ Roadmap
 - [ ] In-app explanation (feature contributions)
@@ -122,7 +145,7 @@ At Risk (1) / Not at Risk (0)
 - [ ] Lightweight monitoring for drift (if used in batch scoring)
 - [ ] Internationalization (labels & hints)
 
-
+---
 
 ## 🙌 Acknowledgments
 - CDC **BRFSS** Diabetes Health Indicators (for inspiring the input schema)
