@@ -99,7 +99,6 @@ At Risk (1) / Not at Risk (0)
   <img src="./ROC.png" alt="ROC curve (test)" width="48%" />
 </p>
 
-- [📈 Model evaluation](#-model-evaluation)
 
 ---
 
