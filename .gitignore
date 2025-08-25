@@ -1,0 +1,12 @@
+# OS / tooling
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# Environments / secrets
+.venv/
+.env
+
+# Large datasets & zips (keep repo light)
+diabetes_*BRFSS2015*.csv
+*.zip
